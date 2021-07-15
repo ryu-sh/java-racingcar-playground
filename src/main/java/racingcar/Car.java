@@ -29,5 +29,6 @@ public class Car {
     protected int getRandomNo() {
         Random random = new Random();
         return random.nextInt(MAX_BOUND);
+        
     }
 }
